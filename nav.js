@@ -1,17 +1,17 @@
 const nav = [{
-        name: "Home",
+        name: "home",
         url: "/"
     },
     {
-        name: "Team",
+        name: "team",
         url: "/team"
     },
     {
-        name: "About",
+        name: "about",
         url: "/about"
     },
     {
-        name: "Contact",
+        name: "contact",
         url: "/contact"
     }
 ]
