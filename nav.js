@@ -1,19 +1,22 @@
-const nav = [{
-        name: "home",
+const nav = [
+
+    {
+        name: "Home",
         url: "/"
     },
     {
-        name: "team",
+        name: "Team",
         url: "/team"
     },
     {
-        name: "about",
+        name: "About",
         url: "/about"
     },
     {
-        name: "contact",
+        name: "Contact",
         url: "/contact"
     }
+
 ]
 
 module.exports = {

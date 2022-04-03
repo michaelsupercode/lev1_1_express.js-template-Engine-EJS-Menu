@@ -27,10 +27,12 @@ app.get("/:name", (req, res) => {
     console.log("page", page);
 
 
-    console.log(page.name());
+    console.log(page.name.toLowerCase());
 
-    const pname = page.name()
+    const pname = page.name.toLowerCase()
     res.render(pname, { nav })
 })
 
 app.listen(PORT), () => console.log("myserver is listening on port", PORT)
+
+//credits @steff
